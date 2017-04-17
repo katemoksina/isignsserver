@@ -9,5 +9,6 @@ var Booking = require('../models/booking');
 Booking.methods(['get','post','put','delete']);
 Booking.register(router, '/booking');
 
+
 //return router
 module.exports = router;

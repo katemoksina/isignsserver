@@ -4,8 +4,7 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var getTT = require('./getTT.js').timetable;
 
-//TODO: add a timer to call getTT.js (dont forget to import it) as the server starts and then every 30 minutes
-//it should really be in a callback probably
+
 
 
 //connect to the MongoDb
